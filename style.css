@@ -1,0 +1,8 @@
+body {
+  text-align: center;
+}
+.wrapper {
+  /* border: 1px dashed black; */
+  width: 570px;
+  margin: 0 auto;
+}

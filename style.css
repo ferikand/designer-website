@@ -9,6 +9,10 @@ body {
   margin: 0 auto;
 }
 
+section {
+  padding: 100px 0;
+}
+
 h1,
 h2 {
   font-weight: 300;
@@ -53,4 +57,21 @@ a {
 a:hover,
 a:focus {
   color: #131313;
+}
+
+.header {
+  background-color: #d7d7d7;
+}
+
+.about-me {
+  background-color: #ffeaea;
+}
+
+.my-work {
+  background-color: #eaf9ff;
+}
+
+.dark {
+  background: #252525;
+  color: #fff;
 }

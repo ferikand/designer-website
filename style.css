@@ -16,6 +16,7 @@ section {
 h1,
 h2 {
   font-weight: 300;
+  margin-top: 0;
 }
 
 h1 {
@@ -29,10 +30,12 @@ h2 {
 h3 {
   font-size: 36px;
   font-weight: 900;
+  margin: 0;
 }
 
 .small {
   font-size: 16px;
+  margin-top: 0;
 }
 
 .hOne,
@@ -74,4 +77,19 @@ a:focus {
 .dark {
   background: #252525;
   color: #fff;
+}
+
+.buttons {
+  display: inline-block;
+  color: #252525;
+  background: #99d930;
+  text-decoration: none;
+  padding: 10px 25px;
+  margin: 25px auto;
+}
+
+.buttons:hover,
+.buttons:active {
+  color: #fff;
+  background: #252525;
 }
